@@ -26,7 +26,7 @@ xbacklight -set 80 &
 xset -b &
 
 # dvorak, for great comfort
-setxkbmap dvorak
+#setxkbmap dvorak
 
 # dpms timeouts. standby -> suspend -> off
 xset dpms 600 1200 2000 &
@@ -36,8 +36,8 @@ xset dpms 600 1200 2000 &
 # wifi manager
 LC_ALL=C nm-applet &
 # Copy.com cloud storage agent
-LC_ALL=C /usr/sbin/CopyAgent &
-LC_ALL=C screencloud &
+#LC_ALL=C /usr/sbin/CopyAgent &
+#LC_ALL=C screencloud &
 
 # notifier
 dunst &
@@ -46,7 +46,7 @@ dunst &
 xrefresh &
 
 # special keys
-sleep 1s && xmodmap /home/shawn/.Xmodmap &
+#sleep 1s && xmodmap /home/robbo/.Xmodmap &
 
 # configure natural scrolling for touchpad
 # configure normal scrolling for mouse
