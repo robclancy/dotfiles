@@ -19,22 +19,19 @@ ZSH_THEME="amuse"
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git archlinux composer ruby)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/shawn/.cabal/bin"
+#export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
-export LANG=en_US.UTF-8
+export LANG=en_AU.UTF-8
 export EDITOR='vim'
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
-
-# ssh
-export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 export TERM=xterm-256color
 alias ltr="ls -ltr"
@@ -45,7 +42,6 @@ alias vu="vagrant up"
 alias vl="VBoxManage list runningvms"
 alias vd="vagrant halt"
 alias vs="vagrant ssh"
+alias ls="ls -a --color=auto"
 
 alias ga=""
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
