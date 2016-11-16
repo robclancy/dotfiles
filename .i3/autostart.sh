@@ -2,8 +2,8 @@
 
 ~/.i3/detect_screen_configuration.sh
 
-# set background 
-# xsetroot -solid '#101010' 
+# set background
+# xsetroot -solid '#101010'
 ## Merge Xresources
 xrdb -merge ~/.Xresources &
 
@@ -12,7 +12,7 @@ xrdb -merge ~/.Xresources &
 #feh --bg-scale "/home/shawn/Pictures/black.png" &
 #feh --bg-scale "/home/shawn/Pictures/Wallpapers/divided_kingdom.jpg" &
 
-# default volume 
+# default volume
 pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo '50%' &
 
 # load "funny" sample
@@ -51,13 +51,11 @@ xrefresh &
 # configure natural scrolling for touchpad
 # configure normal scrolling for mouse
 #xinput --set-button-map 'Logitech Unifying Device. Wireless PID:1017' 1 2 3 4 5
-#xinput --set-button-map 11 1 2 3 4 5 
+#xinput --set-button-map 11 1 2 3 4 5
 
 # start up scratchpad apps
 
 #/usr/bin/subl && i3-msg move scratchpad
-/usr/bin/subl3 &
-sleep 1s && /usr/sbin/i3-msg '[title="Sublime Text$"]' move scratchpad&
 
 # all done
 exit 0
