@@ -17,6 +17,7 @@ floating_modifier $mod
 
 # one bar on all screens
 bar {
+  tray_output primary
   position bottom
   modifier $mod
   status_command i3status
