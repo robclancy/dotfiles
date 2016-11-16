@@ -10,7 +10,7 @@ set $mod Mod4
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font pango:Source Sans Pro 13
+font pango:Source Sans Pro 14
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
