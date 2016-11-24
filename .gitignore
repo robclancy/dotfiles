@@ -1,9 +1,1 @@
-[user]
-    name = Robbo
-    email = robbo.clancy@gmail.com
-
-[color]
-    ui = auto
-
-[push]
-	default = matching
+.vim/.netrwhist
