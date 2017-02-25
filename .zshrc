@@ -27,6 +27,7 @@ antigen apply
 # User configuration
 
 export PATH="$HOME/.node_modules/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
 
 export LANG=en_AU.UTF-8
 export EDITOR='vim'
