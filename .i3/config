@@ -197,6 +197,8 @@ bindsym $mod+Tab focus down
 
 exec --no-startup-id ~/.i3/autostart.sh
 
+exec pa-applet
+
 #client.focused #899ca1 #2E373D #899ca1
 #client.focused_inactive #121212 #2e373d #899ca1
 #client.urgent #CE0007 #2e373d #3ea1bc
